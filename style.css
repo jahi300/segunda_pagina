@@ -51,11 +51,26 @@ margin: 5% 30% 0 2%;
 }
 .div3{
     display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:20px 
-   
-    
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    background-color: RGB(200, 91, 67) ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color:white;
+    text-align: center;
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 45px; 
+    }
+    p{
+        letter-spacing: 1px;
+    }
 }
+.div3-1{
+    margin-left: 20%;
+}
+
+
 .boton{
     color: white;
     font-size: 15px;
@@ -78,7 +93,4 @@ margin: 5% 30% 0 2%;
     color: #3d261a;
     text-align: right;
     font-family: serif;
-}
-.prueba{ 
-    font-size: 20;
 }
