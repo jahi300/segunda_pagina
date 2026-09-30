@@ -135,3 +135,98 @@ margin: 5% 30% 0 2%;
     text-align: right;
     font-family: serif;
 }
+.letra_platos{
+    padding: 48px 20px 24px;
+    background-color: #fdf8eb;
+    text-align: center;
+}
+.letra_platos h1{
+    color: #b85540;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+.letra_platos span{
+    display: inline-block;
+    margin-top: 8px;
+    color: #7a5a43;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.div5{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+    padding: 0 12% 48px;
+    background-color: #fdf8eb;
+}
+.div5 > div{
+    display: flex;
+    min-width: 0;
+    min-height: 256px;
+    border: 1px solid #e3d7c3;
+    background-color: #fff;
+}
+.div5 img{
+    flex: 0 0 37%;
+    width: 37%;
+    min-height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    object-fit: contain;
+    background-color: #d4a575;
+}
+.div5 > div > div{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+}
+.div5 h1{
+    margin-bottom: 16px;
+    color: #b85540;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.div5 h3{
+    margin-bottom: 16px;
+    color: #24160f;
+    font-size: 20px;
+}
+.div5 p{
+    margin-bottom: 16px;
+    color: #62564d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+.div5 button{
+    margin-top: auto;
+    padding: 11px 23px;
+    border: 0;
+    background-color: #c85b43;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.pie-pagina{
+    padding: 38px 20px;
+    background-color: #2d1910;
+    color: #d4a575;
+    text-align: center;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 24px;
+}
+.redes-sociales div{
+    font-size: 26px;
+    line-height: 1;
+}
+.pie-pagina p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
